@@ -1,1 +1,1 @@
-web: npm run build && npm run start:prod
+web: npm run build && NODE_PATH=./build npm run start:prod
